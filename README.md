@@ -34,9 +34,4 @@ RetroAgent significantly outperforms existing methods across four challenging ag
 
 RetroAgent also exhibits strong test-time adaptation and generalization to out-of-distribution scenarios, validated across two model families.
 
-## Installation
-
-```bash
-# Coming soon
-git clone https://github.com/zhangxy-2019/RetroAgent.git
-cd RetroAgent
+For any questions, please email Xiaoying Zhang (zhangxycuhk@gmail.com)
