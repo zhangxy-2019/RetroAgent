@@ -112,7 +112,7 @@ bash ./examples/grpo_trainer/run_minesweeper_retroagent_grpo_in_context_self_ref
 ```
 
 ## 🙏 Acknowledgments
-This code is adapted from and built upon several amazing open-source repositories. We sincerely thank the authors and contributors of these projects for sharing their valuable work: verl, verl-agent, and LaMer.
+This code is adapted from and built upon several amazing open-source repositories. We sincerely thank the authors and contributors of these projects for sharing their valuable work: verl (https://github.com/verl-project/verl), verl-agent (https://github.com/langfengQ/verl-agent/tree/master), and LaMer (https://github.com/mlbio-epfl/LaMer).
 
 ## 📬 Contact
 For questions or discussions, please reach out to Xiaoying Zhang at zhangxycuhk@gmail.com.
