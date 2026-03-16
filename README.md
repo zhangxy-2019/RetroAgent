@@ -83,27 +83,17 @@ conda env create -f agent-alfworld-env.yaml
 bash ./examples/grpo_trainer/run_alfworld_retroagent_grpo_in_context_self_reflection.sh
 ```
 
-
-ALFWorld
-```bash
-conda env create -f agent-alfworld-env.yaml
-bash ./examples/grpo_trainer/run_alfworld_retroagent_grpo_in_context_self_reflection.sh
-```
-
-
 Webshop
 ```bash
 conda env create -f agent-webshop-env.yaml
 bash ./examples/grpo_trainer/run_webshop_retroagent_grpo_in_context_self_reflection.sh
 ```
 
-
 Sokoban
 ```bash
 conda env create -f agent-sokoban-env.yaml
 bash ./examples/grpo_trainer/run_sokoban_retroagent_grpo_in_context_self_reflection.sh
 ```
-
 
 MineSweeper
 ```bash
