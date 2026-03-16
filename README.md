@@ -28,7 +28,7 @@ Standard RL paradigms favor static problem-solving over continuous adaptation: a
 - 🔢 **Intrinsic Numerical Feedback** — Tracks incremental subtask completion relative to prior attempts, rewarding promising explorations.
 - 💬 **Intrinsic Language Feedback** — Distills reusable lessons into a memory buffer, retrieved via our proposed **Similarity & Utility-Aware Upper Confidence Bound (SimUtil-UCB)** strategy that balances relevance, utility, and exploration to effectively leverage past experiences.
 
-### RetroAgent On-Policy RL Training Framework
+### RetroAgent - On-Policy RL Training Framework
 
 <p align="center">
   <img src="assets/retroagent_method.drawio.png" alt="RetroAgent Framework" width="90%">
