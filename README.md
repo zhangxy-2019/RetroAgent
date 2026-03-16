@@ -47,8 +47,7 @@ RetroAgent significantly outperforms existing methods across four challenging ag
 | Sokoban | **+27.1%** |
 | MineSweeper | **+8.9%** |
 
-RetroAgent also exhibits strong **test-time adaptation** and **generalization to out-of-distribution scenarios**, validated across two model families. RetroAgent also exhibits strong test-time adaptation and generalization to out-of-distribution scenarios, validated across two model families.
-
+RetroAgent also exhibits strong **test-time adaptation** and **generalization to out-of-distribution scenarios**, validated across two model families.
 
 > 💡 All experiments were conducted on **4 × NVIDIA H200 GPUs**.
 
