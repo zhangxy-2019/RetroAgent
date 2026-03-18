@@ -21,8 +21,8 @@ mkdir -p $(dirname "$REFLECTION_FILE")
 python3 -m examples.data_preprocess.prepare \
     --mode 'text' \
     --train_data_size $train_data_size \
-    --val_data_size $val_data_size
-
+    --val_data_size $((val_data_size * 2)) 
+    
 python3 -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
     data.train_files=$HOME/data/verl-agent/text/train.parquet \
