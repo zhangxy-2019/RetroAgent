@@ -21,7 +21,7 @@ mkdir -p $(dirname "$REFLECTION_FILE")
 python3 -m examples.data_preprocess.prepare \
     --mode 'text' \
     --train_data_size $train_data_size \
-    --val_data_size $((val_data_size * 2)) 
+    --val_data_size $val_data_size
     
 python3 -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
