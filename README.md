@@ -1,6 +1,4 @@
-# 🔄 RetroAgent
-
-**RETROAGENT: From Solving to Evolving via Retrospective Dual Intrinsic Feedback**
+# 🔄 RETROAGENT: From Solving to Evolving via Retrospective Dual Intrinsic Feedback
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.08561"><img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge&logo=arxiv" alt="Paper"></a>
