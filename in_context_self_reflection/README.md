@@ -1,56 +1,3 @@
-# 🔄 RETROAGENT: From Solving to Evolving via Retrospective Dual Intrinsic Feedback
-
-<p align="center">
-  <a href="https://arxiv.org/abs/2603.08561"><img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge&logo=arxiv" alt="Paper"></a>
-  <a href="https://github.com/zhangxy-2019/RetroAgent"><img src="https://img.shields.io/badge/Project-Page-blue?style=for-the-badge&logo=github" alt="Project Page"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
-</p>
-
-<p align="center">
-  <em>An online RL framework that empowers LLM agents to <strong>evolve</strong> — not just solve.</em>
-</p>
-
----
-
-> ✅ **Update:** The code for RetroAgent with **in-context self-reflection** has been released — enjoy and have fun!  
-> 🚧 We are actively organizing the code for RetroAgent with **RL-trained self-reflection**. Stay tuned for the upcoming release!
-
----
-
-## 📖 Overview
-
-**RetroAgent** is an online reinforcement learning framework that empowers LLM-based agents to master complex interactive environments through continuous self-improvement.
-
-Standard RL paradigms favor static problem-solving over continuous adaptation: agents often converge to suboptimal strategies due to insufficient exploration, while learned knowledge remains implicit within parameters rather than explicitly retrievable. RetroAgent addresses these limitations through a **hindsight self-reflection mechanism** that produces **dual intrinsic feedback**:
-
-- 🔢 **Intrinsic Numerical Feedback** — Tracks incremental subtask completion relative to prior attempts, rewarding promising explorations.
-- 💬 **Intrinsic Language Feedback** — Distills reusable lessons into a memory buffer, retrieved via our proposed **Similarity & Utility-Aware Upper Confidence Bound (SimUtil-UCB)** strategy that balances relevance, utility, and exploration to effectively leverage past experiences.
-
-### RetroAgent - On-Policy RL Training Framework
-
-<p align="center">
-  <img src="assets/retroagent_method.drawio.png" alt="RetroAgent Framework" width="90%">
-</p>
-
----
-
-## 🏆 Key Results
-
-RetroAgent significantly outperforms existing methods across four challenging agentic tasks, achieving **state-of-the-art** results. Compared to GRPO-trained agents:
-
-| Task | Improvement |
-|:------------|:-----------:|
-| ALFWorld | **+18.3%** |
-| WebShop | **+15.4%** |
-| Sokoban | **+27.1%** |
-| MineSweeper | **+8.9%** |
-
-RetroAgent also exhibits strong **test-time adaptation** and **generalization to out-of-distribution scenarios**, validated across two model families.
-
-> 💡 All experiments were conducted on **4 × NVIDIA H200 GPUs**.
-
----
-
 ## 🚀 Quick Start
 
 ### Clone the Repository
@@ -74,6 +21,11 @@ pip install -e .
 
 ### 3. Install Supported Environments
 ⚠️ Important: To run an agent in any of these environments, you must first install and configure the corresponding environment. We strongly recommend installing each environment in its own dedicated conda environment to avoid potential package version conflicts.
+
+### Option A: w/ In-Context Self-Reflection
+Navigate to the in-context directory and run the desired environment:
+
+cd ./in_context_self_reflection
 
 ALFWorld
 ```bash
